@@ -1,13 +1,28 @@
 h1 Hangman
 
+//- Player 1 section
 section.player1
     h2 Player 1
     p Enter Word!
     form
         input(type='text' value='enter word')
         //- default width of text field is 20 characters
+    form
+        input(type='submit' value='OK')
+
+
+//- Player 2 section
+section.player2
+    h2 Player 2
+
+        //- Picture of hangman
+    canvas#myCanvas(width='500' height='350' style='border:1px solid #000000;')
+    form
+        input(type='text' value='enter letter')
+        //- default width of text field is 20 characters
         input(type='submit' value='OK')
     form
-
-
+        input(type='reset' value='Reset')
+    form
+        input(type='submit' value='End Game')
 

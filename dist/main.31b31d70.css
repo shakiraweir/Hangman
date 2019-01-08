@@ -2,3 +2,16 @@ body {
   margin: 0;
   background-color: #efefef;
 }
+
+table {
+  border: solid black 1px;
+}
+
+td {
+  border: solid red 1px;
+  padding: 50px;
+}
+
+td {
+  border: solid purple 1px;
+}
