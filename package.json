@@ -1,0 +1,24 @@
+{
+  "name": "Hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakiraweir/Hangman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakiraweir/Hangman/issues"
+  },
+  "homepage": "https://github.com/shakiraweir/Hangman#readme",
+  "devDependencies": {
+    "pug": "^2.0.3",
+    "sass": "^1.15.3"
+  }
+}
