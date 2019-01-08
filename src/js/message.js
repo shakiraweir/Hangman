@@ -4,6 +4,7 @@ module.exports = {
   }
 }
 
+// draw hangman stickfigure using canvas API
 
 // draw straight lines on canvas
   var canvas = document.getElementById("myCanvas");
@@ -27,9 +28,19 @@ module.exports = {
   ctx.beginPath();
   ctx.arc(220, 140, 30, 0, 2 * Math.PI);
   ctx.stroke();
+
   ctx.moveTo(220,170);
   ctx.lineTo(220,250);
   ctx.stroke();
   ctx.moveTo(220,250);
-  ctx.lineTo(160,310);
+  ctx.lineTo(180,300);
+  ctx.stroke();
+  ctx.moveTo(220,250);
+  ctx.lineTo(260,300);
+  ctx.stroke();
+  ctx.moveTo(220,210);
+  ctx.lineTo(180,190);
+  ctx.stroke();
+  ctx.moveTo(220,210);
+  ctx.lineTo(260,190);
   ctx.stroke();

@@ -108,7 +108,8 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 module.exports = {
   message: function message(messageText) {
     console.log(messageText);
-  } // draw straight lines on canvas
+  } // draw hangman stickfigure using canvas API
+  // draw straight lines on canvas
 
 };
 var canvas = document.getElementById("myCanvas");
@@ -135,7 +136,16 @@ ctx.moveTo(220, 170);
 ctx.lineTo(220, 250);
 ctx.stroke();
 ctx.moveTo(220, 250);
-ctx.lineTo(160, 310);
+ctx.lineTo(180, 300);
+ctx.stroke();
+ctx.moveTo(220, 250);
+ctx.lineTo(260, 300);
+ctx.stroke();
+ctx.moveTo(220, 210);
+ctx.lineTo(180, 190);
+ctx.stroke();
+ctx.moveTo(220, 210);
+ctx.lineTo(260, 190);
 ctx.stroke();
 },{}],"../js/main.js":[function(require,module,exports) {
 var messages = require("./message");
@@ -168,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51213" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64494" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

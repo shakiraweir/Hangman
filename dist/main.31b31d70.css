@@ -15,3 +15,7 @@ td {
 td {
   border: solid purple 1px;
 }
+
+canvas {
+  background: #efefef;
+}
